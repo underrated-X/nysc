@@ -197,7 +197,7 @@ display: block;
 }
 
 .action-card{
-    width: 480px;
+  
     height: 300px;
     background-color: var(--primary-color);
     box-shadow: 1px 1px 5px var(--light-color);
@@ -207,13 +207,11 @@ display: block;
 }
 .action-card:hover{
     box-shadow: 2px 2px 5px 2px var(--light-color);
-    height: 380px;
-    padding-top: 55px;
+   transform: translateY(-10px)
 }
 .action-container{
-    display: flex;
-   justify-content: center;
-   align-items: center;
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
  .action-card h2{
@@ -359,7 +357,8 @@ padding: 10px 8px;
 }
 
 .section3 .guideline-container{
- display: flex;
+ display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .guideline-card   p{
@@ -386,7 +385,7 @@ padding: 10px 8px;
  }
  .section4 .link-container{
    display: grid;
-   grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
  }
  .section4 .link-container a{
@@ -456,10 +455,11 @@ padding: 10px 8px;
 .footer {
 width: 100%;
 background-color:var(--primary-color);
-}
+} 
 
 .footer .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-content: space-between;
     font-size: 14px;
 }
@@ -473,5 +473,6 @@ color: #0F0F0F;
     font-weight: bold;
 }
 @media(width: 767px){
+
 
 }
