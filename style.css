@@ -87,6 +87,26 @@ text-decoration: underline;
 .btn-green:hover{
     opacity: 0.8;
 }
+.hamburger-menu{
+    font-size: 1rem;
+    color:#000;
+    font-weight:bold;
+    cursor:pointer;
+    display:none;
+    
+}
+@media(max-width: 768px){
+  .hamburger-menu{
+  dispaly:inline-block;
+  }
+  .mobile-menu{
+      display:none;
+      flex-direction:column;
+      height:100vh;
+      background-color:#fff;
+      width:80%;
+  }
+}
 .hero{
     padding: 0 40px;
 }
@@ -476,3 +496,4 @@ color: #0F0F0F;
 
 
 }
+
