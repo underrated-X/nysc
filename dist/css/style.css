@@ -167,7 +167,17 @@ margin-bottom: 4px;
     /* border: 1px solid #ccc; */
     
 }
-
+@media(max-width: 768px){
+ .hero .container{
+     flex-direction: column;
+ }
+    .hero .img-ad  a img{
+        width:100%;
+    }
+   .hero-info{
+       width:100%;
+   }
+}
 .section1{
     background-color: var(--base-color);
    
@@ -231,8 +241,8 @@ display: block;
     border-radius: 5px;
 }
 .action-card:hover{
-    box-shadow: 2px 2px 5px 2px var(--light-color);
-   transform: translateY(-10px)
+    box-shadow: 1px 1px 5px 2px #fff, -1px -1px 5px 2px #ccc;
+   transform: translateY(-5px)
 }
 .action-container{
    display: grid;
@@ -384,6 +394,7 @@ padding: 10px 8px;
 .section3 .guideline-container{
  display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:3rem;
 }
 
 .guideline-card   p{
@@ -484,7 +495,7 @@ background-color:var(--primary-color);
 
 .footer .container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: space-between;
     font-size: 14px;
 }
@@ -501,5 +512,6 @@ color: #0F0F0F;
 
 
 }
+
 
 
