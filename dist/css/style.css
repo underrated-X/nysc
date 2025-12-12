@@ -233,7 +233,7 @@ display: block;
 
 .action-card{
   
-    height: 380px;
+    height: 325px;
     background-color: var(--primary-color);
     box-shadow: 1px 1px 5px var(--light-color);
     padding: 15px;
@@ -514,6 +514,7 @@ color: #0F0F0F;
     flex-direction:column;
 }
 }
+
 
 
 
