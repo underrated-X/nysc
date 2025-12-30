@@ -97,7 +97,7 @@ text-decoration: underline;
     color:#000;
     font-weight:bold;
     cursor:pointer;
-    /* display:none; */
+    display:none;
     
 }
 @media(max-width: 768px){
@@ -165,7 +165,7 @@ margin-bottom: 4px;
     height: 280px;
     margin: 0px 10px;
     border-radius: 25px;
-    object-fit:cover;
+    /* object-fit:cover; */
     /* border: 1px solid #ccc; */
     
 }
@@ -520,6 +520,7 @@ color: #0F0F0F;
     gap:8px;
 }
 }
+
 
 
 
