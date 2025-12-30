@@ -517,9 +517,10 @@ color: #0F0F0F;
 .footer .container{
     flex-direction:column;
     text-align:center;
-    gap:8px;
+    gap: 1rem;
 }
 }
+
 
 
 
