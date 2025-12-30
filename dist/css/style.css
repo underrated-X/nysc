@@ -17,8 +17,7 @@ body{
 font-family:  "Poppins", serif;
 font-size: 16px;
 background-color: var(--primary-color);
-/* padding:  30px; */
-padding:10px 5%;
+padding:  30px;
 line-height: 1.5;
 }
 ul{
@@ -64,6 +63,7 @@ text-decoration: underline;
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    padding:  20px;
     /* border: 1px solid #ccc; */
     /* padding-left: 2px; */
 }
@@ -515,6 +515,7 @@ color: #0F0F0F;
     flex-direction:column;
 }
 }
+
 
 
 
